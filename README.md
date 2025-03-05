@@ -16,6 +16,8 @@
 15) !poll - FIXED
 16) member join feature(whenever a new member joins it welcomes on the channel named welcome) FIXED
 17) Added the Configurations to the gemini api and giving it a prompt for how I want it to act
+
+
 -----------bugs fixed ----------
 for !poll, made the argument optional so if it has a None value it tells you the format you should be using, it does the same if you only gave an input with the question and no options
 
@@ -23,11 +25,13 @@ for !cancelreminder i was using another filtered list to remove the reminders fr
 
 the member join function was not working because the member intent wasnt turned on in the discord developer portal and in the code too.
 
+
 ---- all features-----
 respods to user messages using the Gemini API
 Can create and delete reminders and also see the list of reminders(!remindme , !cancelreminder , !reminders_list)
 can create polls (!poll Question?a;b;c)
 The bot welcomes new members in the 'welcome' channel
+
 
 --------things left to add if time is there--------
 !help (learning how to change the help section and making it more cleaner)
