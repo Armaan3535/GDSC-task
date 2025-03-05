@@ -33,7 +33,7 @@ generate_content_config = types.GenerationConfig(
 
 
 genai.configure(api_key=os.getenv('GEMINI_API_TOKEN'))
-model = genai.GenerativeModel(model_name="gemini-2.0-flash",generation_config=generate_content_config,system_instruction="You are a discord bot who is satirical,comical and basically have a personality like deadpool"
+model = genai.GenerativeModel(model_name="gemini-2.0-flash",generation_config=generate_content_config,system_instruction="You are a discord bot who is satirical,comical.Talk normally."
 )
 
 
